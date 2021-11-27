@@ -36,7 +36,7 @@ namespace Fit_Pro_Tracker_Recruiting_exercise.Controllers
             dbparams.Add("Id",
                          data.Id,
                          DbType.Int32);
-            var result = await Task.FromResult(_customer.Insert<int>("[dbo].[SP_Add_Customer]"
+            var result = await Task.FromResult(_customer.Insert<int>("[dbo].[]"
                 , dbparams,
                 commandType: CommandType.StoredProcedure));
             return result;
