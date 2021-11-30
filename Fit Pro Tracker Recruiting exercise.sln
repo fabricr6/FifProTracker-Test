@@ -5,6 +5,13 @@ VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fit Pro Tracker Recruiting exercise", "Fit Pro Tracker Recruiting exercise.csproj", "{5428CB8F-BD79-466E-9BB1-A6FF61F84F49}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{91C4B8E6-6BD5-4C3F-9966-26B5780B5234}"
+	ProjectSection(SolutionItems) = preProject
+		.filenesting.json = .filenesting.json
+	EndProjectSection
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "Fif-Pro-Front", "..\Fif-Pro-Front\Fif-Pro-Front.esproj", "{10D28259-FE3F-4929-B35E-72F188410339}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +22,12 @@ Global
 		{5428CB8F-BD79-466E-9BB1-A6FF61F84F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5428CB8F-BD79-466E-9BB1-A6FF61F84F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5428CB8F-BD79-466E-9BB1-A6FF61F84F49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10D28259-FE3F-4929-B35E-72F188410339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10D28259-FE3F-4929-B35E-72F188410339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10D28259-FE3F-4929-B35E-72F188410339}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{10D28259-FE3F-4929-B35E-72F188410339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10D28259-FE3F-4929-B35E-72F188410339}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10D28259-FE3F-4929-B35E-72F188410339}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
